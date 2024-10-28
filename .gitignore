@@ -11,7 +11,9 @@ target/
 *.iws
 *.iml
 *.ipr
-
+Reports/
+test-output/
+Assessment Files
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -36,3 +38,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/allure-results/
