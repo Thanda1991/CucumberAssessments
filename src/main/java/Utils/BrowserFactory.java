@@ -12,9 +12,9 @@ public class BrowserFactory {
     public  static  WebDriver startBrowser (String browserChoice, String url){
         switch (browserChoice.toLowerCase()){
             case "chrome":
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless");
-                driver = new ChromeDriver(options);
+                //ChromeOptions options = new ChromeOptions();
+                //options.addArguments("--headless");
+                driver = new ChromeDriver();
                 break;
             case "firefox":
             case "mozilla":
