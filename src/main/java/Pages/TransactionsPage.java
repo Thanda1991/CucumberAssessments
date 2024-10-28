@@ -20,12 +20,12 @@ public class TransactionsPage {
     @FindBy(xpath = "//button[@class='btn'][contains(.,'Back')]")
     WebElement backButton_xpath;
 
-//    public void verifyTransactionAppears() {
-//        //new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(transactionRecord_xpath));
-//        //driver.getCurrentUrl();
-//        //driver.refresh(driver.getCurrentUrl());
-//        transactionRecord_xpath.isDisplayed();
-//    }
+    public void verifyTransactionAppears() {
+        //new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(transactionRecord_xpath));
+        //driver.getCurrentUrl();
+        driver.navigate().refresh();
+        transactionRecord_xpath.isDisplayed();
+    }
 
     public void clickBackButton() {
         new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(backButton_xpath));
