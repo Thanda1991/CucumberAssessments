@@ -12,7 +12,7 @@ This repository contains an object-oriented automation test framework designed t
 
 ## Tools Used
 - **Intellij**: JavaScript runtime for server-side development.
-- **TypeScript**: For enhanced code quality and readability.
+- **Java with Maven**: For enhanced code quality and readability.
 ### Reporting Tools
 - **Allure Report**
 - **Extents Report**
@@ -30,6 +30,7 @@ This repository contains an object-oriented automation test framework designed t
    git clone https://github.com/Thanda1991/CucumberAssessments.git
 
 2. **Installed Dependencies**:
+
 https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm
 https://mvnrepository.com/artifact/io.cucumber/cucumber-testng
 https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
