@@ -21,9 +21,7 @@ public class TransactionsPage {
     WebElement backButton_xpath;
 
     public void verifyTransactionAppears() {
-        //new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(transactionRecord_xpath));
-        //driver.getCurrentUrl();
-        driver.navigate().refresh();
+        this.driver.navigate().refresh();
         transactionRecord_xpath.isDisplayed();
     }
 

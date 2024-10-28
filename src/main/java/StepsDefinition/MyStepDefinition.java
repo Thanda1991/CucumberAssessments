@@ -127,7 +127,7 @@ public class MyStepDefinition extends Base {
 
    @Then("I verify that the transaction appears")
     public void iVerifyThatTheTransactionAppears() {
-       //transactionsPage.verifyTransactionAppears();
+       transactionsPage.verifyTransactionAppears();
    }
 
     @And("I click the back button to go back")

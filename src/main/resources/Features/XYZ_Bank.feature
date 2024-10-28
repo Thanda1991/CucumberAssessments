@@ -18,6 +18,7 @@ Feature: XYZ_Bank
       | customerName | depositAmount |
       | Harry Potter | 1500          |
 
+  @Regression @Test2
   Scenario Outline: As an existing customer I should be able to successfully login
     Given I have launched the site and I see appropriate login button
     And I click the customer login button
@@ -52,6 +53,7 @@ Feature: XYZ_Bank
       | customerName | customerSecondAccountNumber | customerThirdAccountNumber | depositAmount |
       | Ron Weasly   | 1008                        | 1009                       | 1500          |
 
+  @Regression @Test3
   Scenario Outline: As an existing customer I should be able to successfully login
     Given I have launched the site and I see appropriate login button
     And I click the customer login button

@@ -13,7 +13,7 @@ public class BrowserFactory {
         switch (browserChoice.toLowerCase()){
             case "chrome":
                 ChromeOptions options = new ChromeOptions();
-                //options.addArguments("--headless");
+                options.addArguments("--headless");
                 driver = new ChromeDriver(options);
                 break;
             case "firefox":
